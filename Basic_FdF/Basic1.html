@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basic1</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<style>
+		.box1 {
+            margin:30px;
+    }
+    	.box3 {
+            margin: 30px;
+    }	
+    	.box3 {
+            margin: 30px;
+    }
+	</style>
+
+</head>
+<body>
+	<header>
+		<h1>Christmas assets once they are clicked e.g.</h1>
+	</header>
+	<div class="box1"><img src="https://cdn.shopify.com/s/files/1/1369/2605/articles/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png?v=1511752878" width="300"></div>
+    <div class="box2"><img src="https://juststickers.in/wp-content/uploads/2016/11/santa-claus.png" width="300">
+    </div>
+    <div class="box3"><img src="http://www.freepngimg.com/download/christmas_bell/1-2-christmas-bell-png-image.png" width="300"></div>
+	<script>
+		 $(document).ready(function() {
+        	$('div').on('click', function() {
+            $(this).text("You clicked on the Christmas bell");
+        })
+    });
+	</script>
+</body>
+</html>
